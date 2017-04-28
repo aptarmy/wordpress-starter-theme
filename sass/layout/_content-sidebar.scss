@@ -1,0 +1,23 @@
+@media (min-width:768px) {
+	.content-area {
+		float: left;
+		width: $size__site-main-tablet;
+	}
+	.site-content .widget-area {
+		float: left;
+		width: $size__site-sidebar-tablet;
+	}
+
+}
+@media (min-width:992px) {
+	.content-area {
+		float: left;
+		width: $size__site-main;
+	}
+	.site-content .widget-area {
+		float: left;
+		width: $size__site-sidebar;
+	}
+
+}
+@media (min-width:1200px) {}

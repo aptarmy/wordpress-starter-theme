@@ -1,0 +1,52 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote, q {
+	quotes: "" "";
+	background-color: $blue-lighten-4;
+	padding: 1em 1em 1em 5em;
+	border-left: 5px solid $blue-darken-1;
+	position: relative;
+	overflow: hidden;
+	&:after {
+		content: "\f10d";
+		font-family: "FontAwesome";
+		color: $blue-accent-1;
+		@include font-size(3);
+		position: absolute;
+		left: 20px;
+		top: 0px;
+	}
+	p { margin: 0; }
+}
+
+hr {
+	background-color: $color__background-hr;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+@import "lists";
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	max-width: 100%; /* Adhere to container width. */
+}
+
+figure {
+	margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+@import "tables";

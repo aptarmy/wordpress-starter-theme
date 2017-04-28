@@ -1,0 +1,32 @@
+.widget {
+	margin: 1em 1em 2.5em;
+	background-color: $color__background-widget;
+
+	.widget-title {
+		padding: 5px 10px;
+		margin: 0;
+	}
+
+	/* Make sure select elements fit in widgets. */
+	select { max-width: 100%; }
+
+	li {list-style: none;}
+
+	/* Widget content */
+	> ul, .textwidget, &.widget_nav_menu > div > ul, &.widget_calendar .calendar_wrap, &.widget_recent_entries ul, &.widget_tag_cloud .tagcloud { padding: 5px 10px;margin: 0;}
+
+	/* Calendar */
+	#wp-calendar {
+		caption {text-align: right;color: $gray-darken-4;text-align: center;}
+		thead { font-size: 10px; }
+		thead th {padding-bottom: 10px;text-align: center;border: 1px solid $gray;}
+		tbody { color: $gray-darken-2; }
+		tbody td {background: $gray-lighten-2;border: 1px solid $gray; text-align: center;padding: 8px;}
+		tbody td a { color: $gray-darken-4; font-weight: bold; transition: none; text-decoration: none;}
+		tbody td:not([colspan]):hover {background: $gray-darken-1; color: $white;}
+		tbody td:hover a {color: $white;}
+		tbody .pad { background: none; }
+		tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
+		tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+	}
+}

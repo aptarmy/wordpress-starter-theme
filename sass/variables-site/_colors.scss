@@ -1,0 +1,57 @@
+/* Color Palette */
+
+$white: #fff;
+$gray-lighten-5: #fafafa;
+$gray-lighten-4: #f5f5f5;
+$gray-lighten-3: #eeeeee;
+$gray-lighten-2: #e0e0e0;
+$gray-lighten-1: #bdbdbd;
+$gray: #9e9e9e;
+$gray-darken-1: #757575;
+$gray-darken-2: #616161;
+$gray-darken-3: #424242;
+$gray-darken-4: #212121;
+
+$blue-lighten-5: #e3f2fd;
+$blue-lighten-4: #bbdefb;
+$blue-lighten-3: #90caf9;
+$blue-lighten-2: #64b5f6;
+$blue-lighten-1: #42a5f5;
+$blue: #2196f3;
+$blue-darken-1: #1e88e5;
+$blue-darken-2: #1976d2;
+$blue-darken-3: #1565c0;
+$blue-darken-4: #0d47a1;
+$blue-accent-1: #9fb8df;
+$blue-accent-2: #7194d0;
+$blue-accent-3: #5e86c9;
+$blue-accent-4: #5e7bc9;
+
+/* For more color palette please check out the link http://materializecss.com/color.html */
+
+/* Site Colors */
+
+/* Background */
+$color__background-body									: $white;
+$color__background-screen								: $gray-lighten-1;
+$color__background-hr									: $gray-lighten-2;
+$color__background-button								: $gray-lighten-3;
+$color__background-pre									: $gray-lighten-2;
+$color__background-ins									: $gray-lighten-4;
+$color__background-widget								: $white;
+
+/* Text */
+$color__text-screen										: $blue-accent-4;
+$color__text-input										: $gray-darken-3;
+$color__text-input-focus								: $gray-darken-4;
+$color__link											: $blue-darken-1;
+$color__link-visited									: $blue-darken-4;
+$color__link-hover										: $blue-darken-3;
+$color__text-main										: $gray-darken-3;
+
+/* Border */
+$color__border-button									: $gray-lighten-2 $gray-lighten-2 $gray-lighten-1;
+$color__border-button-hover								: $gray-lighten-1 $gray-lighten-1 $gray-lighten-2;
+$color__border-button-focus								: $gray-lighten-1 $gray-lighten-1 $gray-lighten-2;
+$color__border-input									: $gray-lighten-2;
+$color__border-abbr										: $gray-darken-2;

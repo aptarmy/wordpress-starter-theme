@@ -1,0 +1,10 @@
+.site-header {
+	background-color: $blue-darken-3;
+}
+.site-title {
+	@include font-size(2);
+	a { color: $blue-lighten-5; text-decoration: none; }
+}
+.site-description {
+	color: $blue-lighten-3;
+}
