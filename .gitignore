@@ -1,4 +1,5 @@
 node_modules
+dist
 theme-starter.sublime-workspace
 theme-starter.sublime-project
 .vscode
