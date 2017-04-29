@@ -1,7 +1,12 @@
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
+How to use this sarter theme
+---
+* After clone or download this repository run the command `npm install` it will install all neccessary packages during development
+* Turn on dev server and run the command `gulp` it will cancatenate javascript, compile SCSS, and enable livereload in your browser
 
-===
+
+---
 
 Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 
