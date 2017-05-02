@@ -153,3 +153,13 @@ require get_template_directory() . '/inc/apt_so_widgets/apt_so_widgets.php';
  * TGM Activation
  */
 require get_template_directory() . '/inc/tgm-activation/tgm-config.php';
+
+/**
+ * Demo import
+ */
+require get_template_directory() . '/inc/demo-import.php';
+
+/**
+ * Woocommerce support
+ */
+require get_template_directry() . '/inc/woocommerce/test-variation-support.php';

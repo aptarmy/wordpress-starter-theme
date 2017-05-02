@@ -75,6 +75,12 @@ function apt_register_required_plugins() {
 			'required'  		=> false,
 			'force_activation'	=> false,
 		),
+		array(
+			'name'				=> 'One Click Demo Import',
+			'slug'				=> 'one-click-demo-import',
+			'required'			=> false,
+			'force_activation'	=> false
+		),
 		/*array(
 			'name'				=> 'Kirki Framework',
 			'slug'				=> 'kirki',
