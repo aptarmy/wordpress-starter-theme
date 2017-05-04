@@ -162,4 +162,5 @@ require get_template_directory() . '/inc/demo-import.php';
 /**
  * Woocommerce support
  */
-require get_template_directry() . '/inc/woocommerce/test-variation-support.php';
+ // show swatches in WooCommerce Layered Nav Widget menu item
+require get_template_directory() . '/inc/woocommerce/wc-layerd-nav-widget.variation-swatches.php';

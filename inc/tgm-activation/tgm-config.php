@@ -81,6 +81,12 @@ function apt_register_required_plugins() {
 			'required'			=> false,
 			'force_activation'	=> false
 		),
+		array(
+			'name'				=> 'Variation Swatches for WooCommerce',
+			'slug'				=> 'variation-swatches-for-woocommerce',
+			'required'			=> false,
+			'force_activation'	=> false
+		),
 		/*array(
 			'name'				=> 'Kirki Framework',
 			'slug'				=> 'kirki',
